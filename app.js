@@ -5,7 +5,51 @@ var breakLength = 5;
 //Initial session length in minutes
 var sessionLength = 25;
 
-//Adds 1 minute to length to max of 60 min
+
+function addTime(time) {
+	if (time === 60) {
+		return time;
+		}
+	return time + 1;
+	}
+
+function subtractTime(time) {
+	if (time === 1) {
+		return time;
+		}
+	return time - 1;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//Adds 1 minute to length to max of 60 min
 function addParameter(time) {
   if (time === 60) {
     return time;
@@ -61,3 +105,4 @@ $("#session-subtract").click(function() {
   //Timer is set to mirror session length
   console.log("subtract");
 });
+*/
