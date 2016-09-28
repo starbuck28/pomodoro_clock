@@ -10,3 +10,30 @@ QUnit.module("Adding and Subtracting Numbers", function() {
 	  assert.equal(subtractTime(60), 59, "1 minute subtracted from time");
 	  });
 });
+
+
+
+//Start w/ simple countdown timer
+	//Convert seconds to milliseconds
+	//Start timer to count down from specific number
+	//Stop timer
+	//Clear timer
+	
+
+//Add ability to choose number to count down from
+	//If session length changed while timer running
+	//Timer stops
+
+//Add in set interval to repeat countdown
+
+//Add in ability to set interval time to repeat countdown
+	//If break length changed while timer running
+	//Timer keeps running
+	//Interval changes
+
+
+
+
+
+
+
